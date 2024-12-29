@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="3136079416fc48fa801c1687494ce74d" Name="Diagram1">
+        <EntityTypeShape EntityType="Wsc2023Day2Paper2Model.Airplane" Width="1.5" PointX="5.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Wsc2023Day2Paper2Model.Flight" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Wsc2023Day2Paper2Model.Itenerary" Width="1.5" PointX="2.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Wsc2023Day2Paper2Model.Passenger" Width="1.5" PointX="0.75" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Wsc2023Day2Paper2Model.Payment" Width="1.5" PointX="7.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Wsc2023Day2Paper2Model.sysdiagram" Width="1.5" PointX="4.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Wsc2023Day2Paper2Model.TicketCategory" Width="1.5" PointX="0.75" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Wsc2023Day2Paper2Model.Ticket" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="Wsc2023Day2Paper2Model.User" Width="1.5" PointX="5" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Wsc2023Day2Paper2Model.UserType" Width="1.5" PointX="2.75" PointY="5.125" IsExpanded="true" />
+        <AssociationConnector Association="Wsc2023Day2Paper2Model.FK_Tickets_Passengers" ManuallyRouted="false" />
+        <AssociationConnector Association="Wsc2023Day2Paper2Model.FK_Tickets_TicketCategories" ManuallyRouted="false" />
+        <AssociationConnector Association="Wsc2023Day2Paper2Model.FK_Users_UserType" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
